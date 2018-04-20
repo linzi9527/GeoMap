@@ -69,9 +69,9 @@ public class ShpFormatUtil {
         return sb.toString();
     }
 	
-	public static void main(String[] args) {
+/*	public static void main(String[] args) {
 		String shpPath ="D:\\eclipse-jee-indigo-SR2-win32-x86_64\\shps\\second.shp";
 		ShpFormatUtil.shp2Json(shpPath);
-	}
+	}*/
 }
 
