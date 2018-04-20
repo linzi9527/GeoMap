@@ -16,7 +16,7 @@ import org.geotools.swing.JMapFrame;
 import org.geotools.swing.data.JFileDataStoreChooser;
 
 /**
- * 将shp文件打开展示地图场地
+ * 将shp文件打开展示地图场地，并转为geojson数据格式
  * @author 蓝眼泪
  * 2018-4-10上午11:17:52
  */
@@ -38,7 +38,7 @@ public class TestMap {
 	  
 	        // Create a map content and add our shapefile to it  
 	        MapContent map = new MapContent();  
-	        map.setTitle("Quickstart");  
+	        map.setTitle("快速浏览");  
 	          
 	        Style style = SLD.createSimpleStyle(featureSource.getSchema());  
 	        Layer layer = new FeatureLayer(featureSource, style);  
